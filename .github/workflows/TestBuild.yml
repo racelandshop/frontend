@@ -1,0 +1,23 @@
+name: "Test build"
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  build_frontend:
+    name: Test build
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Checkout submodules
+        uses: textbook/git-checkout-submodule-action@master
+      - name: Install dependencies
+        run: script/bootstrap
+      - name: Build
+        run: script/build

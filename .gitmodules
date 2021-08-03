@@ -1,0 +1,7 @@
+[submodule "homeassistant-frontend"]
+	path = homeassistant-frontend
+	url = https://github.com/home-assistant/frontend.git
+	branch = dev
+[submodule "home-assistant-frontend"]
+	path = home-assistant-frontend
+	url = https://github.com/racelandshop/home-assistant-frontend

@@ -1,0 +1,11 @@
+node_modules
+package-lock.json
+build
+src/localize/generated.ts
+!script/build
+racelandshop_frontend/*.js
+racelandshop_frontend/*.json
+racelandshop_frontend/*.js.gz
+!racelandshop_frontend/*.py
+
+yarn-error.log
