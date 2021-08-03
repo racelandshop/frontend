@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name="racelandshop-frontend",
-    version="20210730.1",
+    version="20210730.3",
     description="The RACELANDSHOP frontend",
     url="https://github.com/racelandshop/frontend",
     author="Raceland Automacao",
